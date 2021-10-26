@@ -5,10 +5,14 @@ MySQL with phpMyAdmin
 # Import the Database:
 1) Open phpMyAdmin - I used XAMP to run a MariaDB MySQL Server.
 
-2) Make sure the following MySQL connection settings are correct inside the file `config-dev.json` located  the Backend:
+2) Make sure the following MySQL connection settings are correct inside the file `config-dev.json` located in the Backend:
+
 Database Host: `localhost`
+
 Database Name: `thirdprojectdb`
+
 Database User: `root`
+
 Database Default Password: ` ` (empty)
 
 # Download and Install:
@@ -39,6 +43,14 @@ cd ../frontend
 npm start
 ```
 
-The project should open up on http://localhost/ and load up my first react project!
+The project should open up on http://localhost:3000/ and load up my first react project!
 
 # Screenshots:
+
+![image](https://user-images.githubusercontent.com/79161997/138907434-c33e949c-fe29-4a53-a40f-aad4c0b57297.png)
+
+![image](https://user-images.githubusercontent.com/79161997/138907582-35dfd42f-4d19-40a3-861f-0bbaa5fa9a5d.png)
+
+![image](https://user-images.githubusercontent.com/79161997/138908187-3cd625d8-7805-41e0-b9de-3d4b5595499a.png)
+
+![image](https://user-images.githubusercontent.com/79161997/138908638-ee658d0a-0a64-49fe-8b10-b7ae70e3ec87.png)
