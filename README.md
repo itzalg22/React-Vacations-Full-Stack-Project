@@ -1,5 +1,6 @@
 # Dependencies:
 React ^17.0.2
+
 MySQL with phpMyAdmin
 
 # Import the Database:
