@@ -6,7 +6,9 @@ MySQL with phpMyAdmin
 # Import the Database:
 1) Open phpMyAdmin - I used XAMP to run a MariaDB MySQL Server.
 
-2) Make sure the following MySQL connection settings are correct inside the file `config-dev.json` located in the Backend:
+2) Import `thirdprojectdb.sql` to a new database named `thirdprojectdb`
+
+3) Make sure the following MySQL connection settings are correct inside the file `config-dev.json` located in the Backend:
 
 Database Host: `localhost`
 
