@@ -1,0 +1,8 @@
+Admin User = {
+name:admin
+password:admin
+}
+Regular user = {
+name:user
+password:user
+}

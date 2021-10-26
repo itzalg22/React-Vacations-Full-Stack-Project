@@ -1,0 +1,9 @@
+.AuthMenu {
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+
+.AuthMenu hr {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}

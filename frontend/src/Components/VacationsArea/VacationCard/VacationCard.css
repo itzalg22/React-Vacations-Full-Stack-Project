@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+.VacationCard {
+    width: fit-content;
+    margin: auto;
+}
+
+.VacationCard .card {
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Molengo', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    width: 28rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 583px;
+}
+
+.VacationCard .card-title {
+    font-size:2rem;
+}
+
+.VacationCard .card-text {
+    margin-bottom:0;
+}
+
+.VacationCard img {
+    height: 296px;
+}
+
+.VacationCard i {
+    border: 1px solid gray;
+    padding: 4px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffffffc2;
+}
+
+.VacationCard .vacationPrice {
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: auto;
+    height: 38px;
+    background-color: #6ab070;
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 3px 4px 4px 3px;
+    border-left: 1px solid #6ab070;
+    /* This makes room for the triangle */
+    margin-left: 19px;
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 38px;
+    padding: 0 10px 0 10px;
+    top: calc(296px - 38px - 5px);
+    left: 2px;
+}
+
+/* Makes the triangle */
+
+.VacationCard .vacationPrice:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -19px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid #6ab070;
+}
+
+/* Makes the circle */
+
+.VacationCard .vacationPrice:after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: -9px;
+    top: 17px;
+}

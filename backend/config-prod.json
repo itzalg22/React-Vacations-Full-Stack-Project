@@ -1,0 +1,9 @@
+{
+    "mysql" : {
+        "host" :  "Private",
+        "user"  : "Private",
+        "password" : "Private",
+        "name"  : "Private"
+    },
+    "jwtKey": "ThereIsNoPlaceLikeHome"
+}
